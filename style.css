@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Andika:wght@700&display=swap');
+
+
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+font-family: 'Andika', sans-serif;
+
+}
+body{
+  
+    height: 100vh;
+    width: 100%;
+    color: #fff;
+}
+.container-fluid {
+    background: #3CC8EF; 
+}
+.voting-container{
+color: #fff;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+height: 100vh;
+padding: 30px;
+
+}
+.peter{
+    background:#D99AC5 ;
+   margin: 50px;
+   border-radius: 10px;
+ 
+   
+}
+.brian{
+    background: #3CC8EF;
+    margin: 50px;
+    border-radius: 10px;
+   
+}
+.mwangi{
+    background: #3CC8EF;
+    margin: 50px;
+    border-radius: 10px;
+   
+
+}
+.ngunjiri{
+   background: #29C3ED; 
+   margin: 50px;
+   border-radius: 10px;
+
+}
+#btn{
+    background: #fff;
+    margin-left: 100px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    
+}
+#btn:hover{
+    background-color: green;
+
+}
+.list-vote{
+    background: #fff;
+    color: black;
+}
